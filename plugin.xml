@@ -1,0 +1,25 @@
+<plugin name='grails-fnordmetric' version='0.1' grailsVersion='2.2 &gt; *'>
+  <author>Your name</author>
+  <title>Grails Fnordmetric Plugin</title>
+  <description>The fnordmetric plugin provides integration with the FnordMetric server and can be used to publish application metrics and activity.
+</description>
+  <documentation>https://github.com/rumbitaliev/grails-fnordmetric</documentation>
+  <type>GrailsFnordmetricGrailsPlugin</type>
+  <resources>
+    <resource>grails.plugin.fnordmetric.FnordMetricService</resource>
+    <resource>grails.plugin.fnordmetric.FnordMetricTimingService</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <test>
+      <dependency group='org.gmock' name='gmock' version='0.8.0' />
+      <dependency group='org.hamcrest' name='hamcrest-library' version='1.1' />
+    </test>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
