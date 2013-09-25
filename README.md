@@ -1,4 +1,4 @@
-Grails FnordMetric Plugin
+Grails FnordMetric enterprise Plugin
 =============
 
 This project allows for easy publication of metrics to FnordMetric enterprise from a grails application.
